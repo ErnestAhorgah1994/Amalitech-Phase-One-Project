@@ -8,15 +8,16 @@
 /* START OF DESKTOP VIEW */
 
 :root{
-    --borderOutlines:5px solid green;
+    /* --borderOutlines:5px solid green; */
+    --color:red;
 }
 
 body{
     background-color: #f2f2f2;
 }
 .main-desktop-container{
-    width: 1440px;
-    height: 1832px;
+    width: 100vw;
+    height:100vh;
     background-image: url("/assets/bg-main-desktop.png");
     background-repeat: no-repeat;
     border: var(--borderOutlines);
