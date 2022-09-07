@@ -16,8 +16,8 @@ body{
     background-color: #f2f2f2;
 }
 .main-desktop-container{
-    width: 100vw;
-    height:100vh;
+    width: 1440px;
+    height:1832px;
     background-image: url("/assets/bg-main-desktop.png");
     background-repeat: no-repeat;
     border: var(--borderOutlines);
@@ -134,13 +134,13 @@ font-weight: 700;
 line-height: 32px;
 letter-spacing: -0.18px;
 color:#FCFAF9;
-top: 10px;
-right:85px;
+top: 14px;
+right:91px;
 }
 .apple-logo{
     position: absolute;
-    left:99px;
-    top:15px;
+    left:93px;
+    top:18px;
 }
 
 /* ANDROID BUTTON AND TEXT FIELDS */
@@ -152,13 +152,13 @@ right:85px;
     line-height: 32px;
     letter-spacing: -0.18px;
     color:#080808;
-    top: 11px;
-    right:85px;
+    top: 15px;
+    right:90px;
     }
     .android-logo{
         position: absolute;
-        left:60px;
-        top:16px;
+        left:64px;
+        top:19px;
     }
 
 .premium-eq-container{
@@ -365,7 +365,7 @@ white-space: nowrap;
 
 
 /* START OF TABLET VIEW USING MEDIA QUERY */
-@media only screen and (max-width:1023px){
+@media only screen and (min-width:1440px) and (max-width:1832px){
 
     .equalizer-logo{
         position: absolute;
@@ -602,6 +602,7 @@ white-space: nowrap;
             border: var(--borderOutlines);
             border-radius: 15px;
             background-color: #191826;
+            cursor: pointer;
         }
         
         /* IOS BUTTON ACTIVE STATE */
@@ -631,6 +632,7 @@ white-space: nowrap;
             border: var(--borderOutlines);
             border-radius: 15px;
             background-color: #FCFAF9;
+            cursor: pointer;
         }
         
         /* ANDROID BUTTON ACTIVE STATE */
