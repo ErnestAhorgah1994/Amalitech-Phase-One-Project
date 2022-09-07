@@ -15,7 +15,7 @@ body{
     background-color: #f2f2f2;
 }
 .main-desktop-container{
-    width: 1440px;
+    width: 90vw;
     height: 1832px;
     background-image: url("/assets/bg-main-desktop.png");
     background-repeat: no-repeat;
