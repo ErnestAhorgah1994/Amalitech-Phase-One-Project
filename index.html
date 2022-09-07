@@ -11,11 +11,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet"> 
+    
+    <script>
+    function htmlLayoutOff(){
+        var Stylechange= document.querySelector(':root');
+        var rootStyles=getComputedStyle(Stylechange);
+        var red=rootStyles.getPropertyValue('--borderOutlines');
+        Stylechange.style.setProperty('--borderOutlines','none');
+    }
+
+    function htmlLayoutOn(){
+        var root= document.querySelector(':root');
+        var rootStyles=getComputedStyle(root);
+        var red=rootStyles.getPropertyValue('--borderOutlines');
+        root.style.setProperty('--borderOutlines','5px solid green');
+    }
+    </script>
+
 </head>
 
 
-
 <body>
+    <nav class="navigation">
+        <button onclick="htmlLayoutOn()" class="btn">Click to turn on</button>
+        <button onclick="htmlLayoutOff()" class="btn">Click to turn off</button>
+    </nav>
 
 
 

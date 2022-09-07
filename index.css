@@ -5,11 +5,25 @@
 }
 
 
+.navigation{
+    position: sticky;
+    top:0px;
+    width: 600px;
+    height: 60px;
+    background: #66E2DC;
+    margin:0px auto 0px auto;
+    z-index: 1;
+    border-radius: 0px 0px 50px 50px;
+    background-image: url("/nav-bar-bg.jpg");
+    border-bottom: 2px solid;
+    box-shadow: 0px 2px 15px 1px grey;
+}
+
+
 /* START OF DESKTOP VIEW */
 
 :root{
     /* --borderOutlines:5px solid green; */
-    --color:red;
 }
 
 body{
