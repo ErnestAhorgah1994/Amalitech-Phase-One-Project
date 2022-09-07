@@ -378,8 +378,8 @@ white-space: nowrap;
     }
    
 .main-desktop-container{
-    width: 768px;
-    height: 1781px;
+    width: 1366px;
+    height: 1050px;
     background-image: url("/assets/bg-main-tablet.png");
     background-repeat: no-repeat;
     border: var(--borderOutlines);
