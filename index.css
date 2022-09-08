@@ -3,6 +3,11 @@
     margin: 0PX;
     box-sizing: border-box;
 }
+.email{
+    text-align: center;
+    font-size: large;
+    color: black;
+}
 
 
 .navigation{
