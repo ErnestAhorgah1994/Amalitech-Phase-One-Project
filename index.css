@@ -406,7 +406,7 @@ white-space: nowrap;
 
 
 /* START OF TABLET VIEW USING MEDIA QUERY */
-@media only screen and (min-width:378px) and (max-width:1366px){
+@media only screen and (min-width:400px) and (max-width:1366px){
 
     .equalizer-logo{
         position: absolute;
@@ -774,7 +774,7 @@ white-space: nowrap;
 
 /* MEDIA QUERY FOR MOBILE VIEW */
 
-@media only screen and (max-width:370px){
+@media only screen and (max-width:399px){
 
     .navigation{
         position: sticky;
