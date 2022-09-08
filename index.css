@@ -11,7 +11,7 @@
     width: 600px;
     height: 60px;
     background: #66E2DC;
-    margin:8px auto 0px auto;
+    margin:0px auto 0px auto;
     z-index: 1;
     border-radius: 0px 0px 50px 50px;
     background-color: aliceblue;
@@ -775,6 +775,40 @@ white-space: nowrap;
 /* MEDIA QUERY FOR MOBILE VIEW */
 
 @media only screen and (max-width:470px){
+
+    .navigation{
+        position: sticky;
+        top:0px;
+        width: 600px;
+        height: 60px;
+        background: #66E2DC;
+        margin:0px auto 0px auto;
+        z-index: 1;
+        border-radius: 0px 0px 50px 50px;
+        background-color: aliceblue;
+        border-bottom: 2px solid;
+        box-shadow: 0px 2px 15px 1px grey;
+    }
+    
+    .btn{
+        position: relative;
+        width: 100px;
+        height: 20px;
+        top: 7px;
+        cursor: pointer;
+        left: 150px;
+        font-weight: bold;
+        color: #111010;
+        background-color: #ffffff;
+    }
+    .btn.two{
+        top:12px;
+    }
+    .btn:hover{
+        background-color: #080808;
+        color: white;
+    }
+    
 
 
     .main-desktop-container{
