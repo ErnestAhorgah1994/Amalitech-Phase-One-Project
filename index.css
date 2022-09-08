@@ -406,7 +406,7 @@ white-space: nowrap;
 
 
 /* START OF TABLET VIEW USING MEDIA QUERY */
-@media only screen and (min-width:475px) and (max-width:1366px){
+@media only screen and (min-width:378px) and (max-width:1366px){
 
     .equalizer-logo{
         position: absolute;
@@ -774,12 +774,12 @@ white-space: nowrap;
 
 /* MEDIA QUERY FOR MOBILE VIEW */
 
-@media only screen and (max-width:470px){
+@media only screen and (max-width:375px){
 
     .navigation{
         position: sticky;
         top:0px;
-        width: 600px;
+        width: 370px;
         height: 60px;
         background: #66E2DC;
         margin:0px auto 0px auto;
@@ -792,11 +792,11 @@ white-space: nowrap;
     
     .btn{
         position: relative;
-        width: 100px;
+        width: 200px;
         height: 20px;
         top: 7px;
         cursor: pointer;
-        left: 150px;
+        left: 95px;
         font-weight: bold;
         color: #111010;
         background-color: #ffffff;
@@ -1025,14 +1025,14 @@ white-space: nowrap;
         line-height: 32px;
         letter-spacing: -0.18px;
         color:#FCFAF9;
-        top: 10px;
-        right:75px;
+        top: 12px;
+        right:77px;
         border: var(--borderOutlines);
         }
         .apple-logo{
             position: absolute;
-            left:68px;
-            top:15px;
+            left:70px;
+            top:17px;
             border: var(--borderOutlines);
         }
     
@@ -1073,14 +1073,14 @@ white-space: nowrap;
         line-height: 32px;
         letter-spacing: -0.18px;
         color:#080808;
-        top: 11px;
+        top: 13px;
         right:55px;
         border: var(--borderOutlines);
         }
         .android-logo{
             position: absolute;
-            left:54px;
-            top:16px;
+            left:56px;
+            top:19px;
             border: var(--borderOutlines);
         }
     
@@ -1109,6 +1109,7 @@ white-space: nowrap;
         height: 100px;
         left:22px;
         border: var(--borderOutlines);
+        top: 50px;
     }
 
     .all-rights-reserved-footer-text{
