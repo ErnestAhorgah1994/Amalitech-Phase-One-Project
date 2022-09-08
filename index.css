@@ -1109,7 +1109,7 @@ white-space: nowrap;
         height: 100px;
         left:22px;
         border: var(--borderOutlines);
-        top: 50px;
+        top: 55px;
     }
 
     .all-rights-reserved-footer-text{
@@ -1126,7 +1126,7 @@ white-space: nowrap;
         width:100px;
         height: 30px;
         left:24px;
-        top:200px;
+        top:220px;
         border: var(--borderOutlines);
     }
     
