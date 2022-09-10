@@ -411,7 +411,7 @@ white-space: nowrap;
 
 
 /* START OF TABLET VIEW USING MEDIA QUERY */
-@media only screen and (min-width:400px) and (max-width:1366px){
+@media only screen and (min-width:480px) and (max-width:1366px){
 
     .equalizer-logo{
         position: absolute;
@@ -421,7 +421,6 @@ white-space: nowrap;
         right:582.76px;
         border: var(--borderOutlines);
     }
-   
 .main-desktop-container{
     width: 768px;
     height: 1781px;
@@ -779,7 +778,7 @@ white-space: nowrap;
 
 /* MEDIA QUERY FOR MOBILE VIEW */
 
-@media only screen and (max-width:399px){
+@media only screen and (max-width:479px){
 
     .navigation{
         position: sticky;
