@@ -31,7 +31,6 @@
     top: 7px;
     cursor: pointer;
     left: 200px;
-    font-weight: bold;
     color: #111010;
     background-color: #ffffff;
 }
@@ -262,6 +261,7 @@ color:#FCFAF9;;
     font-size: 65px;
     line-height: 52px;
     color: #FCFAF9;
+    border: var(--borderOutlines);
 }
 
 .per-month-text{
@@ -275,6 +275,7 @@ letter-spacing: -0.2px;
 top:-20px;
 left: 6px;
 color: #FCFAF9;
+border: var(--borderOutlines);
 }
 
 .ios-button{
@@ -621,6 +622,7 @@ white-space: nowrap;
             font-size: 65px;
             line-height: 52px;
             color: #FCFAF9;
+            border: var(--borderOutlines);
         }
 
         .per-month-text{
@@ -634,6 +636,7 @@ white-space: nowrap;
         top:-20px;
         left: 6px;
         color: #FCFAF9;
+        border: var(--borderOutlines);
         }
 
         .ios-button{
@@ -978,6 +981,7 @@ white-space: nowrap;
         font-size: 65px;
         line-height: 52px;
         color: #FCFAF9;
+        border: var(--borderOutlines);
     }
     
     .per-month-text{
@@ -991,6 +995,7 @@ white-space: nowrap;
     top:285;
     left:8px;
     color: #FCFAF9;
+    border: var(--borderOutlines);
     }
 
     .ios-button{
