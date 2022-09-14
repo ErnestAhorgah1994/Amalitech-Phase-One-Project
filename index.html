@@ -11,34 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet"> 
-    
-    <script>
-    function htmlLayoutOff(){
-        var Stylechange= document.querySelector(':root');
-        var rootStyles=getComputedStyle(Stylechange);
-        var red=rootStyles.getPropertyValue('--borderOutlines');
-        Stylechange.style.setProperty('--borderOutlines','none');
-    }
-
-    function htmlLayoutOn(){
-        var root= document.querySelector(':root');
-        var rootStyles=getComputedStyle(root);
-        var red=rootStyles.getPropertyValue('--borderOutlines');
-        root.style.setProperty('--borderOutlines','3px solid magenta');
-    }
-    </script>
-
 </head>
 
 
 <body>
-    <nav class="navigation">
-        <button onclick="htmlLayoutOn()" class="btn">Click to show html Layout</button><br>
-        <button onclick="htmlLayoutOff()" class="btn two">Click to hide html Layout</button>
-    </nav>
-
-
-
     <div class="main-desktop-container">
         <img src="/assets/logo.svg" alt="Logo" class="equalizer-logo">
         <img src="/assets/bg-pattern-1.svg" alt="Pattern1" class="right-corner-pattern">
@@ -53,7 +29,7 @@
         <div class="price-card">
             <div class="premium-eq-container"><span class="premium-eq-text" >Premium Eq</span></div>
             <div class="get-expert-text-container"> <span class="get-expert-text">Get expert-level control with a<br> robust equalizer, volume mixer, and<br> spatial audio. Take your listening<br> experience to a whole new level and<br> access all our incredible features!</span> </div>
-            <div class="price-container"> <span class="four-dollar-text">$4</span><span class="per-month-text">/month</span></div>
+            <div class="price-container"> <span class="four-dollar-text">$4</span><span class="per-month-text">/ month</span></div>
             <div class="ios-button"><img src="/assets/icon-apple.svg" alt="Apple logo" class="apple-logo"><span class="iOS-text">iOS Download</span></div>
             <div class="android-button"><img src="/assets/icon-android.svg" alt="android logo" class="android-logo"><span class="android-text">Android Download</span></div>
         </div>
@@ -72,9 +48,6 @@
             </div>
         </div>
         
-    </div>
-    <p class="email">ernest.ahorgah@amalitech.org</p><br>
-    
-    
+    </div> 
 </body>
 </html>

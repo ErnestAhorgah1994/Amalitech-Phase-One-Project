@@ -3,68 +3,22 @@
     margin: 0PX;
     box-sizing: border-box;
 }
-.email{
-    text-align: center;
-    font-size: large;
-    color: black;
-}
-
-
-.navigation{
-    position: sticky;
-    top:0px;
-    width: 600px;
-    height: 60px;
-    background: #66E2DC;
-    margin:0px auto 0px auto;
-    z-index: 1;
-    border-radius: 0px 0px 50px 50px;
-    background-color: aliceblue;
-    border-bottom: 2px solid;
-    box-shadow: 0px 2px 15px 1px grey;
-}
-
-.btn{
-    position: relative;
-    width: 180px;
-    height: 20px;
-    top: 7px;
-    cursor: pointer;
-    left: 200px;
-    color: #111010;
-    background-color: #ffffff;
-}
-.btn.two{
-    top:12px;
-}
-.btn:hover{
-    background-color: #080808;
-    color: white;
-}
-
 
 /* START OF DESKTOP VIEW */
-
-:root{
-    /* --borderOutlines:5px solid red; */
-    --color:lightgrey;
-}
-
 body{
     background-color: #f2f2f2;
 }
 .main-desktop-container{
-    width: 1440px;
+    width: 93vw;
     height:1832px;
     background-image: url("/assets/bg-main-desktop.png");
     background-repeat: no-repeat;
-    border: var(--borderOutlines);
     margin: 0px auto 0px auto;
     position: relative;
-    margin-top:40px;
-    margin-bottom:50px;
+    margin-top:25px;
+    margin-bottom:35px;
     overflow: hidden;
-    box-shadow: 0px 0px 20px 3px grey;
+    border: 0.01px solid #C0C0C0;
 }
 
 
@@ -72,26 +26,26 @@ body{
 
 .equalizer-logo{
     position: absolute;
-    top:61.99px;
-    left:166.15px;
-    bottom: 1938.01px;
+    top:46.99px;
+    left:100.15px;
+    bottom: 19381923.01px;
     right:1127.76px;
     border: var(--borderOutlines);
 }
 .right-corner-pattern{
-    width: 312px;
-    height: 468px;
+    width: 270px;
+    height: 408px;
     position: relative;
     top:-40px;
-    left:1128px;
+    left:1000px;
     border: var(--borderOutlines);
 }
 .first-top-text-container{
-    width: 1015px;
+    width: 990px;
     height: 176px;
     border: var(--borderOutlines);
     position: absolute;
-    left:165px;
+    left:100px;
     top:221px;
 }
 
@@ -101,19 +55,21 @@ body{
     font-size: 88px;
     line-height: 88px;
     letter-spacing: -1px;
+    
 }
 
 .second-top-text-container{
     width: 825px;
     height:102px;
     position: absolute;
-    left: 164.5px;
+    left: 100.5px;
     top:437px;
     border: var(--borderOutlines); 
+    
 }
 
 .second-top-text{
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: sans-serif;
     font-weight:400px;
     font-size: 20px;
     line-height: 34px;
@@ -125,7 +81,7 @@ body{
     position: absolute;
     width: 1110px;
     height: 600px;
-    left: 165px;
+    left: 100px;
     top:860px;
     border: var(--borderOutlines);
     background-color: #191826;
@@ -134,7 +90,7 @@ body{
 }
 .center-pattern{
     position: relative;
-    left: 336px;
+    left: 379px;
     right: 462px;
     top:-40px;
     bottom: 172px;
@@ -144,8 +100,8 @@ body{
     position: absolute;
     width: 310.37px;
     height: 590px;
-    left:268.71px;
-    top:630px;
+    left:225.71px;
+    top:647px;
     bottom:594px;
     border: var(--borderOutlines);
 }
@@ -154,7 +110,7 @@ body{
     position: absolute;
     width: 446px;
     height: 625px;
-    left:734px;
+    left:704px;
     right: 260px;
     border: var(--borderOutlines);
     top:950px;
@@ -233,9 +189,9 @@ color: #FCFAF9;
 }
 
 .get-expert-text{
-font-family: 'IBM Plex Sans';
+font-family: sans-serif;
 font-style: normal;
-font-weight: 400;
+font-weight: 420;
 font-size: 20px;
 line-height: 30px;
 white-space: nowrap;
@@ -266,7 +222,7 @@ color:#FCFAF9;;
 
 .per-month-text{
     position: relative;
-font-family: 'IBM Plex Sans';
+font-family: sans-serif;
 font-style: normal;
 font-weight: 300;
 font-size: 20px;
@@ -292,7 +248,7 @@ border: var(--borderOutlines);
 }
 
 /* IOS BUTTON ACTIVE STATE */
-.ios-button:active{
+.ios-button:hover{
     position: absolute;
     top:439px;
     right:59px;
@@ -321,7 +277,7 @@ border: var(--borderOutlines);
 }
 
 /* ANDROID BUTTON ACTIVE STATE */
-.android-button:active{
+.android-button:hover{
     position: absolute;
     top:516px;
     right:59px;
@@ -342,7 +298,7 @@ border: var(--borderOutlines);
     height: 79px;
     bottom:91px;
     border: var(--borderOutlines);
-    left:165px;
+    left:100px;
     right:165px;
 }
 .footer-logo{
@@ -392,7 +348,7 @@ border: var(--borderOutlines);
 }
 
 /* active state of facebook logo clone */
-.facebook-logo-clone:active{
+.facebook-logo-clone:hover{
     position: absolute;
     left:10px;
     display: none;
@@ -401,9 +357,9 @@ border: var(--borderOutlines);
 }
 
 .all-rights-reserved-footer-text{
-font-family: 'IBM Plex Sans';
+font-family: sans-serif;
 font-weight: 300;
-font-size: 16px;
+font-size: 18px;
 line-height: 24px;
 color: #191826;
 white-space: nowrap;
@@ -412,7 +368,7 @@ white-space: nowrap;
 
 
 /* START OF TABLET VIEW USING MEDIA QUERY */
-@media only screen and (min-width:480px) and (max-width:1366px){
+@media only screen and (min-width:480px) and (max-width:1023px){
 
     .equalizer-logo{
         position: absolute;
@@ -420,7 +376,7 @@ white-space: nowrap;
         left:39.15px;
         bottom: 1687.01px;
         right:582.76px;
-        border: var(--borderOutlines);
+        
     }
 .main-desktop-container{
     width: 768px;
@@ -433,7 +389,7 @@ white-space: nowrap;
     margin-top:40px;
     margin-bottom:50px;
     overflow: hidden;
-    box-shadow: 0px 0px 20px 3px grey;
+    border: 0.01px solid #C0C0C0;
 }
     
     
@@ -458,7 +414,7 @@ white-space: nowrap;
     
     .first-top-text{
       
-        font-family: 'IBM Plex Sans', sans-serif;
+        font-family:sans-serif;
         font-size: 64px;
         line-height: 64px;
         letter-spacing: -0.7px;
@@ -474,7 +430,7 @@ white-space: nowrap;
     }
     
     .second-top-text{
-        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: sans-serif;
         font-weight:400px;
         font-size: 18px;
         line-height: 28px;
@@ -530,11 +486,11 @@ white-space: nowrap;
         position: absolute;
         width:696px;
         height: 143px;
-        bottom:85px;
+        bottom:40px;
         border: var(--borderOutlines);
         left:33px;
         right:39px;
-        top: 1553px;
+        top: 1683px;
     }
     .footer-logo{
         width: 146.09px;
@@ -548,15 +504,15 @@ white-space: nowrap;
         position: absolute;
         width: 384px;
         height: 82px;
-        top: 45px;
+        top: 70px;
         left:5px;
         border: var(--borderOutlines);
     }
 
     .all-rights-reserved-footer-text{
-        font-family: 'IBM Plex Sans', sans-serif;
+        font-family:sans-serif;
         font-weight: 300;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 26px;
         color: #191826;
         white-space: nowrap;
@@ -595,10 +551,10 @@ white-space: nowrap;
         }
         
         .get-expert-text{
-        font-family: 'IBM Plex Sans', sans-serif;
+        font-family:sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 19px;
         line-height: 28px;
         white-space: nowrap;
         color:#FCFAF9;
@@ -622,12 +578,11 @@ white-space: nowrap;
             font-size: 65px;
             line-height: 52px;
             color: #FCFAF9;
-            border: var(--borderOutlines);
         }
 
         .per-month-text{
         position: relative;
-        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: sans-serif;
         font-style: normal;
         font-weight: 300;
         font-size: 20px;
@@ -636,7 +591,6 @@ white-space: nowrap;
         top:-20px;
         left: 6px;
         color: #FCFAF9;
-        border: var(--borderOutlines);
         }
 
         .ios-button{
@@ -654,7 +608,7 @@ white-space: nowrap;
         }
         
         /* IOS BUTTON ACTIVE STATE */
-        .ios-button:active{
+        .ios-button:hover{
             position: absolute;
             top:360px;
             right:59px;
@@ -662,7 +616,6 @@ white-space: nowrap;
             left:54px;
             width: 296px;
             height:61px;
-            border: var(--borderOutlines);
             border-radius: 15px;
             background-color: #66E2DC;
             cursor: pointer;
@@ -684,7 +637,7 @@ white-space: nowrap;
         }
         
         /* ANDROID BUTTON ACTIVE STATE */
-        .android-button:active{
+        .android-button:hover{
             position: absolute;
             top:437px;
             right:59px;
@@ -702,7 +655,6 @@ white-space: nowrap;
             position: absolute;
             left:70px;
             top:17px;
-            border: var(--borderOutlines);
         }
 
         .iOS-text{
@@ -715,14 +667,12 @@ white-space: nowrap;
             color:#FCFAF9;
             top: 12px;
             right:80px;
-            border: var(--borderOutlines);
             }
 
         .android-logo{
             position: absolute;
             left:42px;
             top:20px;
-            border: var(--borderOutlines);
         }
 
         .android-text{
@@ -735,7 +685,6 @@ white-space: nowrap;
             color:#080808;
             top: 14px;
             right:72px;
-            border: var(--borderOutlines);
             }
 
             .social-handles-container{
@@ -743,8 +692,7 @@ white-space: nowrap;
                 width:100px;
                 height: 30px;
                 left:570px;
-                top:47px;
-                border: var(--borderOutlines);
+                top:55px;
             }
             
             .twitter-logo{
@@ -765,11 +713,10 @@ white-space: nowrap;
                 position: absolute;
                 left:0.1px;
                 cursor: pointer;
-                border: var(--borderOutlines);
             }
             
             /* active state of facebook logo clone */
-            .facebook-logo-clone:active{
+            .facebook-logo-clone:hover{
                 position: absolute;
                 left:10px;
                 display: none;
@@ -783,41 +730,7 @@ white-space: nowrap;
 
 @media only screen and (max-width:479px){
 
-    .navigation{
-        position: sticky;
-        top:0px;
-        width: 370px;
-        height: 60px;
-        background: #66E2DC;
-        margin:0px auto 0px auto;
-        z-index: 1;
-        border-radius: 0px 0px 50px 50px;
-        background-color: aliceblue;
-        border-bottom: 2px solid;
-        box-shadow: 0px 2px 15px 1px grey;
-    }
     
-    .btn{
-        position: relative;
-        width: 200px;
-        height: 20px;
-        top: 7px;
-        cursor: pointer;
-        left: 95px;
-        font-weight: bold;
-        color: #111010;
-        background-color: #ffffff;
-    }
-    .btn.two{
-        top:12px;
-    }
-    .btn:hover{
-        background-color: #080808;
-        color: white;
-    }
-    
-
-
     .main-desktop-container{
         width: 375px;
         height: 1945px;
@@ -829,7 +742,7 @@ white-space: nowrap;
         margin-top:40px;
         margin-bottom:50px;
         overflow: hidden;
-        box-shadow: 0px 0px 20px 3px grey;
+        border: 0.01px solid #C0C0C0;
     }
     
     
@@ -841,14 +754,12 @@ white-space: nowrap;
         left:24.15px;
         bottom: 1873.01px;
         right:204.76px;
-        border: var(--borderOutlines);
     }
 
 
     .first-top-text-container{
         width: 327px;
         height: 148px;
-        border: var(--borderOutlines);
         position: absolute;
         left:24px;
         top:136px;
@@ -867,14 +778,14 @@ white-space: nowrap;
         height:160px;
         position: absolute;
         left: 24px;
-        top:300px;
+        top:320px;
         border: var(--borderOutlines); 
     }
     
     .second-top-text{
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-weight:400px;
-        font-size: 16px;
+        font-family: sans-serif;
+        font-weight:440px;
+        font-size: 18px;
         line-height: 26px;
     }
     
@@ -954,7 +865,7 @@ white-space: nowrap;
     }
     
     .get-expert-text{
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -986,7 +897,7 @@ white-space: nowrap;
     
     .per-month-text{
         position: relative;
-    font-family: 'IBM Plex Sans',sans-serif;
+    font-family:sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1006,13 +917,12 @@ white-space: nowrap;
         left:42px;
         width: 296px;
         height:61px;
-        border: var(--borderOutlines);
         border-radius: 20px;
         background-color: #191826;
     }
     
     /* IOS BUTTON ACTIVE STATE */
-    .ios-button:active{
+    .ios-button:hover{
         position: absolute;
         top:360px;
         right:37px;
@@ -1020,7 +930,6 @@ white-space: nowrap;
         left:42px;
         width: 296px;
         height:61px;
-        border: var(--borderOutlines);
         border-radius: 20px;
         background-color: #66E2DC;
         cursor: pointer;
@@ -1059,7 +968,7 @@ white-space: nowrap;
     }
     
     /* ANDROID BUTTON ACTIVE STATE */
-    .android-button:active{
+    .android-button:hover{
         position: absolute;
         top:437px;
         right:59px;
@@ -1122,9 +1031,9 @@ white-space: nowrap;
     }
 
     .all-rights-reserved-footer-text{
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-weight: 300;
-        font-size: 12.5px;
+        font-family: sans-serif;
+        font-weight: 470px;
+        font-size: 13.5px;
         line-height: 22px;
         color: #191826;
         white-space: nowrap;
@@ -1161,7 +1070,7 @@ white-space: nowrap;
     }
     
     /* active state of facebook logo clone */
-    .facebook-logo-clone:active{
+    .facebook-logo-clone:hover{
         position: absolute;
         left:10px;
         display: none;
