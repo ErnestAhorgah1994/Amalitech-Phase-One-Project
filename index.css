@@ -26,7 +26,7 @@ body{
 
 .equalizer-logo{
     position: absolute;
-    top:46.99px;
+    top:50.99px;
     left:100.15px;
     bottom: 19381923.01px;
     right:1127.76px;
@@ -195,7 +195,7 @@ font-weight: 420;
 font-size: 20px;
 line-height: 30px;
 white-space: nowrap;
-color:#FCFAF9;;
+color:#FCFAF9;
 }
 
 
@@ -331,12 +331,53 @@ border: var(--borderOutlines);
     top:-3px;
     left: 20px;
     border: var(--borderOutlines);
+    z-index: 2;
+    cursor: pointer;
 }
+
+.twitter-logo:hover{
+    position: relative;
+    top:-3px;
+    left: 20px;
+    border: var(--borderOutlines);
+    z-index: 0;
+    cursor: pointer;
+}
+
+.twitter-active-logo{
+    position: absolute;
+    top:0px;
+    left: 68px;
+    border: var(--borderOutlines);
+    z-index: 1;
+    cursor: pointer;
+}
+
+
 .instagram-logo{
     position: relative;
     left: 10px;
-    border: var(--borderOutlines);
+    z-index: 2;
+    cursor: pointer;
 }
+
+.instagram-logo:hover{
+    position: relative;
+    left: 10px;
+    border: var(--borderOutlines);
+    z-index: 0;
+    cursor: pointer;
+}
+
+
+.instagram-active-logo{
+    position: absolute;
+    left: 33.5px;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+
 
 
 /* facebook logo clone */
@@ -344,7 +385,6 @@ border: var(--borderOutlines);
     position: absolute;
     left:0.1px;
     cursor: pointer;
-    border: var(--borderOutlines);
 }
 
 /* active state of facebook logo clone */
@@ -353,7 +393,6 @@ border: var(--borderOutlines);
     left:10px;
     display: none;
     cursor: pointer;
-    border: var(--borderOutlines);
 }
 
 .all-rights-reserved-footer-text{
@@ -368,7 +407,7 @@ white-space: nowrap;
 
 
 /* START OF TABLET VIEW USING MEDIA QUERY */
-@media only screen and (min-width:480px) and (max-width:1023px){
+@media only screen and (min-width:480px) and (max-width:1366px){
 
     .equalizer-logo{
         position: absolute;
@@ -414,7 +453,7 @@ white-space: nowrap;
     
     .first-top-text{
       
-        font-family:sans-serif;
+        font-family: 'IBM Plex Sans';
         font-size: 64px;
         line-height: 64px;
         letter-spacing: -0.7px;
@@ -496,16 +535,17 @@ white-space: nowrap;
         width: 146.09px;
         height: 32px;
         left:1.15px;
-        top:-0.01px;
+        top:-100px;
         position: absolute;
         border: var(--borderOutlines);
+        
     }
     .footer-text-container{
         position: absolute;
         width: 384px;
         height: 82px;
-        top: 70px;
-        left:5px;
+        top: 55px;
+        left:-1px;
         border: var(--borderOutlines);
     }
 
@@ -516,6 +556,9 @@ white-space: nowrap;
         line-height: 26px;
         color: #191826;
         white-space: nowrap;
+        position: relative;
+        bottom: 100px;
+        left: 5px;
         }
 
         .premium-eq-container{
@@ -595,6 +638,7 @@ white-space: nowrap;
 
         .ios-button{
             position: absolute;
+            
             top:360px;
             right:59px;
             bottom:125px;
@@ -630,7 +674,7 @@ white-space: nowrap;
             left:54px;
             width: 296px;
             height:61px;
-            border: var(--borderOutlines);
+
             border-radius: 15px;
             background-color: #FCFAF9;
             cursor: pointer;
@@ -645,7 +689,6 @@ white-space: nowrap;
             left:54px;
             width: 296px;
             height:61px;
-            border: var(--borderOutlines);
             border-radius: 15px;
             background-color: #FFB964;
             cursor: pointer;
@@ -659,7 +702,7 @@ white-space: nowrap;
 
         .iOS-text{
             position:absolute;
-            font-family: IBM Plex Sans;
+            font-family: 'IBM Plex Sans';
             font-size: 18px;
             font-weight: 700;
             line-height: 32px;
@@ -677,7 +720,7 @@ white-space: nowrap;
 
         .android-text{
             position:absolute;
-            font-family: IBM Plex Sans;
+            font-family: 'IBM Plex Sans',sans-serif;
             font-size: 18px;
             font-weight: 700;
             line-height: 32px;
@@ -692,7 +735,7 @@ white-space: nowrap;
                 width:100px;
                 height: 30px;
                 left:570px;
-                top:55px;
+                top:-81px;
             }
             
             .twitter-logo{
@@ -701,10 +744,29 @@ white-space: nowrap;
                 left: 20px;
                 border: var(--borderOutlines);
             }
+            .twitter-logo:hover{
+                position: relative;
+                top:-3px;
+                left: 20px;
+                border: var(--borderOutlines);
+                z-index: 0;
+                cursor: pointer;
+            }
+            
+            .twitter-active-logo{
+                position: absolute;
+                top:0px;
+                left: 68px;
+                border: var(--borderOutlines);
+                z-index: 1;
+                cursor: pointer;
+            }
+
             .instagram-logo{
                 position: relative;
-                left: 10px;
+                left: 9.5px;
                 border: var(--borderOutlines);
+                
             }
             
             
